@@ -27,3 +27,7 @@ def is_even(n):
 def is_palindrome(text):
     s = str(text).lower().replace(" ", "")
     return s == s[::-1]
+def average(numb):
+    if not num:
+        return 0
+    return sum(num) / len(num)
