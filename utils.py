@@ -24,3 +24,6 @@ def fibonacci(n):
     return b
 def is_even(n):
     return n % 2 == 0
+def is_palindrome(text):
+    s = str(text).lower().replace(" ", "")
+    return s == s[::-1]
