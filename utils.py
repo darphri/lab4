@@ -22,3 +22,5 @@ def fibonacci(n):
     for _ in range(2, n + 1):
         a, b = b, a + b
     return b
+def is_even(n):
+    return n % 2 == 0
